@@ -1,0 +1,177 @@
+.mobile-block {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+        
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media all and (max-width: 768px) {
+    
+    .hero-area {
+        background-image: url(../img/hero/hero-bg.jpg);
+        background-position: 27% 48%;
+    }
+    .hero-car-image {
+        display: none;
+    }
+    
+    .offer-images-wrap img.io-2 {
+        bottom: -17px;
+    }
+    .offer-images-wrap img.io-3 {
+        bottom: 6px;
+    }
+    .offer-carousel .owl-nav div {
+        left: -25px;
+    }
+    .offer-carousel .owl-nav div.owl-next {
+        left: auto;
+        right: -25px;
+    }
+    
+/*    booking page*/
+    .booking-page .breadcumb-area.bg-img {
+        background-position: 90% 100% !important;
+    }
+    .reservation-wrap {
+        margin: 15px 0;
+    }
+    .reservation-area .row.mt-4 {
+        margin-top: 0 !important;
+    }
+    .form-check-wrap .custom-control {
+        margin: 0 12px;
+    }
+/*    drivers page*/
+    .drivers-page .breadcumb-area,
+    .driver-details-page .breadcumb-area {
+        background-image: url(../img/breadcumb/br-driver-bg.png) !important;
+        background-size: 85%;
+    }
+    
+/*    driver-details page*/
+    .driver-details-page .driver-details-area .single-driver {
+        margin: 0 0;
+    }
+    .driver-details-content {
+        padding: 210px 100px 100px;
+    }
+    .driver-details-car-image {
+        display: none;
+    }
+    
+/*about page*/
+    .about-page .breadcumb-area {
+        background-position: 55% 50%;
+        background-size: 115%;
+    }
+    .about-us-content {
+        padding: 50px 50px;
+    }
+    .about-us-passenger-image {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .area-title h2 {
+        font-size: 50px;
+    }
+    .hero-area {
+        background-position: 57% 48%;
+        background-size: cover;
+    }
+    .hero-content h2 {
+        font-size: 55px;
+    }
+    .offer-carousel .owl-nav div {
+        display: none;
+    }
+    .why-chakaride-area .grid,
+    .why-chakaride-area .grid-item {
+        position: static !important;
+    }
+    .why-chakaride-area .grid-item.orB {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: none;
+    }
+    
+    .single-offer .mb-md-5 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .single-offer .offer-image,
+    .single-offer .offer-content {
+        text-align: center;
+    }
+    .offer-images-wrap img.io-2 {
+        bottom: -17px;
+    }
+    .offer-images-wrap img.io-3 {
+        right: 0;
+        width: 42% !important;
+    }
+    .review-quote {
+        right: 18px;
+        bottom: -28px;
+    }
+    .footer-widget.quick-links,
+    .footer-widget.contact-us {
+        margin-bottom: 50px;
+    }
+    .footer-widget.follow-us a {
+        margin-right: 4.5px;
+        margin-top: 8px;
+    }
+    .footer-widget.follow-us a:last-child {
+        margin-right: 0;
+    }
+    
+/*    booking page*/
+    .booking-page .breadcumb-area.bg-img {
+        background-position: 79% 100% !important;
+    }
+    .breadcumb-content h2 {
+        font-size: 60px;
+    }
+    .reservation-wrap {
+        padding: 60px 45px;
+    }
+    .reservation-wrap .form-check-wrap .custom-control {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 0 60px;
+    }
+/*    drivers page*/
+    .drivers-page .breadcumb-area,
+    .driver-details-page .breadcumb-area {
+        background-size: 100%;
+    }
+/*    driver-details page*/
+    .driver-details-content {
+        margin-top: 30px;
+        padding: 0;
+        border: 0;
+    }
+/*    about page*/
+    .about-page .breadcumb-area {
+        background-position: 14% 50%;
+        background-size: cover;
+    }
+    .about-us-content {
+        padding: 30px 30px;
+    }
+}
+@media (max-width: 375px) {
+    .reservation-wrap .form-check-wrap .custom-control {
+        margin: 0 45px;
+    }
+}
+/*# sourceMappingURL=responsive.css.map */
